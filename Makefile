@@ -9,6 +9,7 @@ TARGET_DIR = .
 
 CHIBIOS = ./chibios
 CHIBIOS_CONTRIB = ./chibios-contrib
+KEYMAP = flabber
 
 # project specific files
 SRC =	matrix.c \
