@@ -23,3 +23,17 @@ $ make
 Upload
 ------
 $ make program
+
+
+iflowfor8hours changes
+------
+Corrected the number of keys on the keymap_flabber, made some changes to the layout to
+add some vim-user nicities
+enabled shift + esc = ~
+
+
+TODO
+----
+Figure out where insert key goes
+Make more useful use of backlighting
+make a fn for dropping the controller into programming mode
