@@ -33,11 +33,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * `---------------------------------------------------------------'
      */
     [0] = KEYMAP( \
-        FN3, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS,GRV, FN1, \
-        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSPC,     DEL, \
+        FN3, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS,INS, FN1, \
+        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC, FN4,     DEL, \
         LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,NUHS,ENT,      PGUP,\
         LSFT,NUBS,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,     UP,  PGDN,\
-        LCTL,FN0 ,LALT,               SPC,           RALT,RCTL,NO,       LEFT,DOWN,RGHT \
+        FN0 ,FN0 ,LALT,               SPC,           RALT,RCTL,NO,       LEFT,DOWN,RGHT \
     ),
     /* Layer 1: HHKB-style FN-layer plus extras
      * ,---------------------------------------------------------------.
@@ -53,7 +53,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * `---------------------------------------------------------------'
      */
     [1] = KEYMAP( \
-        TRNS, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, INS, DEL,TRNS, \
+         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, INS, DEL,TRNS, \
         CAPS,TRNS,WAKE,SLEP,TRNS,TRNS,TRNS,TRNS,PSCR,SLCK,PAUS,UP,  TRNS, DEL,     MUTE, \
         TRNS,VOLD,VOLU,MUTE,EJCT,TRNS,LEFT,DOWN,  UP,RGHT,TRNS,TRNS,TRNS,PENT,     VOLU, \
         TRNS,TRNS,FN5 ,FN6 ,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,BTLD,     TRNS,VOLD, \
